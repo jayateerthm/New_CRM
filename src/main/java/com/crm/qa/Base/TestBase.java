@@ -30,11 +30,10 @@ public class TestBase {
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
 		String browserName=pro.getProperty("browser");
-		//System.setProperty("webdriver.chrome.driver", "E:\\Workspaces\\Java-Workspace\\PageObjectModel_Demo\\src\\test\\resources\\chromedriver.exe");
-		//driver=new ChromeDriver();
+	
 		if(browserName.equals("chrome"))
 		{
-			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\jayateerth\\Desktop\\ChromeDriver_Sep\\chromedriver.exe");
+			
 			driver=new ChromeDriver();
 		}
 		else if(browserName.equals("FF"))
