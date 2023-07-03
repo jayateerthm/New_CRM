@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="39317" started-at="2023-01-08T05:27:11Z" finished-at="2023-01-08T05:27:51Z">
+  <suite started-at="2023-07-04T00:37:18 IST" name="Default suite" finished-at="2023-07-04T00:37:36 IST" duration-ms="17140">
     <groups>
     </groups>
-    <test name="Test" duration-ms="39317" started-at="2023-01-08T05:27:11Z" finished-at="2023-01-08T05:27:51Z">
+    <test started-at="2023-07-04T00:37:18 IST" name="Default test" finished-at="2023-07-04T00:37:36 IST" duration-ms="17140">
       <class name="com.crm.qa.testCases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="setUp" is-config="true" duration-ms="11047" started-at="2023-01-08T05:27:11Z" finished-at="2023-01-08T05:27:22Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:18 IST" name="setUp" finished-at="2023-07-04T00:37:22 IST" duration-ms="3943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="loginPageTitleTest" duration-ms="18" started-at="2023-01-08T05:27:22Z" finished-at="2023-01-08T05:27:22Z">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:22 IST" name="loginPageTitleTest" finished-at="2023-07-04T00:37:22 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="873" started-at="2023-01-08T05:27:22Z" finished-at="2023-01-08T05:27:23Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:22 IST" name="tearDown" finished-at="2023-07-04T00:37:23 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="setUp" is-config="true" duration-ms="9731" started-at="2023-01-08T05:27:23Z" finished-at="2023-01-08T05:27:33Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:23 IST" name="setUp" finished-at="2023-07-04T00:37:26 IST" duration-ms="3436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CRMLogoImageTest()[pri:2, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="CRMLogoImageTest" duration-ms="85" started-at="2023-01-08T05:27:33Z" finished-at="2023-01-08T05:27:33Z">
+        <test-method signature="CRMLogoImageTest()[pri:2, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:26 IST" name="CRMLogoImageTest" finished-at="2023-07-04T00:37:26 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CRMLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="858" started-at="2023-01-08T05:27:33Z" finished-at="2023-01-08T05:27:34Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:26 IST" name="tearDown" finished-at="2023-07-04T00:37:26 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="setUp" is-config="true" duration-ms="8169" started-at="2023-01-08T05:27:34Z" finished-at="2023-01-08T05:27:42Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:26 IST" name="setUp" finished-at="2023-07-04T00:37:30 IST" duration-ms="3241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="loginTest" duration-ms="7697" started-at="2023-01-08T05:27:42Z" finished-at="2023-01-08T05:27:50Z">
+        <test-method signature="loginTest()[pri:3, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:30 IST" name="loginTest" finished-at="2023-07-04T00:37:35 IST" duration-ms="5616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@4b9e13df]" name="tearDown" is-config="true" duration-ms="795" started-at="2023-01-08T05:27:50Z" finished-at="2023-01-08T05:27:51Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.LoginTest@1b6e1eff]" started-at="2023-07-04T00:37:35 IST" name="tearDown" finished-at="2023-07-04T00:37:36 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testCases.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

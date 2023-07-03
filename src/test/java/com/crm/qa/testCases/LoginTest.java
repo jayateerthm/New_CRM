@@ -27,7 +27,7 @@ public void setUp()
 public void loginPageTitleTest()
 {
 	String title=loginpage.validateLoginPageTitle();
-	Assert.assertEquals(title, "Free CRM Software for every business", "Title not found");
+	Assert.assertEquals(title, "#1 Free CRM App for every business CRM and VCM verifiable credentials management", "Title not found");
 }
 @Test(priority=2)
 public void CRMLogoImageTest()

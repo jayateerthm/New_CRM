@@ -19,7 +19,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			pro=new Properties();
-			FileInputStream fi=new FileInputStream("E:\\Workspaces\\Java-Workspace\\PageObjectModel_Demo\\src\\main\\java\\com\\crm\\qa\\config\\config.property");
+			FileInputStream fi=new FileInputStream("D:\\Public_CRM\\New_CRM\\src\\main\\java\\com\\crm\\qa\\config\\config.property");
 			pro.load(fi);
 		} catch (Exception e) {
 			
@@ -28,7 +28,7 @@ public class TestBase {
 	
 	public static void initialization()
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dell\\Desktop\\chromedriver\\chromedriver.exe");
 		String browserName=pro.getProperty("browser");
 	
 		if(browserName.equals("chrome"))
